@@ -12,8 +12,8 @@ import config
 ########################## technical ###################################
 
 # sequence_number update
-last_run_date = "07.07.2026"
-sequence_number = 1
+last_run_date = "08.07.2026"
+sequence_number = 2
 
 def check_date_reset():
     global sequence_number, last_run_date

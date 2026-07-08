@@ -62,7 +62,6 @@ with sync_playwright() as p:
         print(f"\n 3 ", end=" ")
         utils.login_vip(page, utils.VIP)
 
-        # TODO: move  parts to utils
         page.get_by_role("button", name="All Requests").click()
         page.get_by_text(f"{current_title}").click()
         print("approve...")
